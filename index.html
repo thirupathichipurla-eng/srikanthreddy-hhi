@@ -7,12 +7,38 @@
   <title>B. Srikanth Reddy | Happy Health India</title>
 
   <style>
+    html {
+      scroll-behavior: smooth;
+    }
+
     body {
       margin: 0;
       font-family: Arial, sans-serif;
       background: #071a12;
       color: white;
       line-height: 1.6;
+    }
+
+    nav {
+      position: sticky;
+      top: 0;
+      background: #04110b;
+      padding: 15px;
+      text-align: center;
+      z-index: 1000;
+      border-bottom: 1px solid #245c3b;
+    }
+
+    nav a {
+      color: #d4af37;
+      text-decoration: none;
+      margin: 0 14px;
+      font-size: 17px;
+      font-weight: bold;
+    }
+
+    nav a:hover {
+      color: white;
     }
 
     header {
@@ -104,7 +130,8 @@
       box-shadow: 0 10px 30px rgba(0,0,0,0.25);
     }
 
-    .card img {
+    .card img,
+    .card video {
       width: 100%;
       display: block;
     }
@@ -133,12 +160,36 @@
       color: #9ca3af;
       background: #04110b;
     }
+
+    @media (max-width: 600px) {
+      nav a {
+        display: inline-block;
+        margin: 6px 8px;
+        font-size: 15px;
+      }
+
+      h1 {
+        font-size: 34px;
+      }
+
+      .tagline {
+        font-size: 18px;
+      }
+    }
   </style>
 </head>
 
 <body>
 
-<header>
+<nav>
+  <a href="#home">Home</a>
+  <a href="#products">Products</a>
+  <a href="#videos">Videos</a>
+  <a href="#qr">QR Code</a>
+  <a href="#contact">Contact</a>
+</nav>
+
+<header id="home">
 
   <img src="profile srikanth reddy.jpeg" alt="B. Srikanth Reddy" class="profile">
 
@@ -151,19 +202,9 @@
   </p>
 
   <div class="buttons">
-
-    <a href="tel:+918885992168">
-      Call Now
-    </a>
-
-    <a href="https://wa.me/918885992168" target="_blank">
-      WhatsApp
-    </a>
-
-    <a href="https://www.instagram.com/srikanthreddy4912/" target="_blank">
-      Instagram
-    </a>
-
+    <a href="tel:+918885992168">Call Now</a>
+    <a href="https://wa.me/918885992168" target="_blank">WhatsApp</a>
+    <a href="https://www.instagram.com/srikanthreddy4912/" target="_blank">Instagram</a>
   </div>
 
 </header>
@@ -173,7 +214,6 @@
   <h2>About</h2>
 
   <div class="about">
-
     <p>
       B. Srikanth Reddy is associated with Happy Health India,
       focusing on wellness products, health awareness,
@@ -185,239 +225,206 @@
       better lifestyle, and additional income opportunities
       through product awareness and team-based business growth.
     </p>
-
   </div>
 
 </section>
 
-<section>
+<section id="products">
 
   <h2>Products & Opportunities</h2>
 
   <div class="gallery">
 
     <div class="card">
-
       <img src="products.jpeg" alt="HHI Products">
-
       <div class="card-content">
-
         <h3>HHI Products</h3>
-
         <p>
           Health care, wellness, nutrition, personal care
           and Ayurvedic product range promoted through
           Happy Health India.
         </p>
-
-        <a href="https://wa.me/918885992168" target="_blank">
-          Ask on WhatsApp
-        </a>
-
+        <a href="https://wa.me/918885992168" target="_blank">Ask on WhatsApp</a>
       </div>
-
     </div>
 
     <div class="card">
-
       <img src="magnet-bracelet.jpeg" alt="Magnet Bracelet">
-
       <div class="card-content">
-
         <h3>Biomagnetic Bracelet</h3>
-
         <p>
           Wellness-focused magnetic bracelet promoted
           as part of HHI product awareness.
         </p>
-
-        <a href="https://wa.me/918885992168" target="_blank">
-          Contact for Details
-        </a>
-
+        <a href="https://wa.me/918885992168" target="_blank">Contact for Details</a>
       </div>
-
     </div>
 
     <div class="card">
-
       <img src="jal-tatva.jpeg" alt="Jal Tatva">
-
       <div class="card-content">
-
         <h3>Jal-Tatva Alkaline Water Converter</h3>
-
         <p>
           Product awareness for alkaline water conversion
           and daily wellness support.
         </p>
-
-        <a href="https://wa.me/918885992168" target="_blank">
-          Ask About Product
-        </a>
-
+        <a href="https://wa.me/918885992168" target="_blank">Ask About Product</a>
       </div>
-
     </div>
 
     <div class="card">
-
       <img src="tree-wealth.jpeg" alt="Tree Wealth">
-
       <div class="card-content">
-
         <h3>Network Marketing Growth</h3>
-
         <p>
           Build connections, create a team,
           support others and grow together.
         </p>
-
-        <a href="https://wa.me/918885992168" target="_blank">
-          Join / Learn More
-        </a>
-
+        <a href="https://wa.me/918885992168" target="_blank">Join / Learn More</a>
       </div>
-
     </div>
 
     <div class="card">
-
       <img src="second-income.jpeg" alt="Second Income">
-
       <div class="card-content">
-
         <h3>Second Source of Income</h3>
-
         <p>
           An opportunity for people looking for flexible
           part-time or full-time business growth.
         </p>
-
-        <a href="https://wa.me/918885992168" target="_blank">
-          Start Conversation
-        </a>
-
+        <a href="https://wa.me/918885992168" target="_blank">Start Conversation</a>
       </div>
-
     </div>
 
     <div class="card">
-
       <img src="network-benefits.jpeg" alt="Benefits">
-
       <div class="card-content">
-
         <h3>Benefits of Network Marketing</h3>
-
         <p>
           Personal growth, financial freedom,
           team building and helping others succeed.
         </p>
-
-        <a href="https://wa.me/918885992168" target="_blank">
-          Know More
-        </a>
-
+        <a href="https://wa.me/918885992168" target="_blank">Know More</a>
       </div>
-
     </div>
 
     <div class="card">
-
       <img src="network-global.jpeg" alt="Global Business">
-
       <div class="card-content">
-
         <h3>Global Business Mindset</h3>
-
         <p>
           Network marketing connects people through teamwork,
           relationship building and shared goals.
         </p>
-
-        <a href="https://wa.me/918885992168" target="_blank">
-          Connect Now
-        </a>
-
+        <a href="https://wa.me/918885992168" target="_blank">Connect Now</a>
       </div>
-
     </div>
 
     <div class="card">
-
       <img src="health-wealth.jpeg" alt="Health Wealth">
-
       <div class="card-content">
-
         <h3>Health + Wealth Vision</h3>
-
         <p>
           A wellness and business opportunity focused on
           improving lifestyle and smart income possibilities.
         </p>
-
-        <a href="https://wa.me/918885992168" target="_blank">
-          Message on WhatsApp
-        </a>
-
+        <a href="https://wa.me/918885992168" target="_blank">Message on WhatsApp</a>
       </div>
-
     </div>
 
     <div class="card">
-
       <img src="success-profile.jpeg" alt="Success">
-
       <div class="card-content">
-
         <h3>Personal Growth & Success</h3>
-
         <p>
           Motivation, planning, discipline and teamwork
           are key parts of long-term growth.
         </p>
-
-        <a href="https://wa.me/918885992168" target="_blank">
-          Contact Srikanth
-        </a>
-
+        <a href="https://wa.me/918885992168" target="_blank">Contact Srikanth</a>
       </div>
-
     </div>
 
   </div>
 
 </section>
 
-<section>
+<section id="videos">
+
+  <h2>Videos</h2>
+
+  <div class="gallery">
+
+    <div class="card">
+      <video controls>
+        <source src="video1.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+      </video>
+
+      <div class="card-content">
+        <h3>Business Awareness Video</h3>
+        <p>
+          Learn more about Happy Health India products,
+          business model, and wellness opportunity.
+        </p>
+      </div>
+    </div>
+
+    <div class="card">
+      <video controls>
+        <source src="video2.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+      </video>
+
+      <div class="card-content">
+        <h3>Wellness & Product Information</h3>
+        <p>
+          Watch product-related information and understand
+          the benefits shared by the business team.
+        </p>
+      </div>
+    </div>
+
+    <div class="card">
+      <video controls>
+        <source src="video3.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+      </video>
+
+      <div class="card-content">
+        <h3>Growth & Opportunity</h3>
+        <p>
+          A short video about personal growth, network building,
+          and business opportunity.
+        </p>
+      </div>
+    </div>
+
+  </div>
+
+</section>
+
+<section id="qr">
 
   <h2>Digital Visiting Card</h2>
 
   <div class="card">
-
     <img src="QR.jpeg" alt="QR Code">
 
     <div class="card-content">
-
       <h3>Scan & Connect</h3>
 
       <p>
         Scan this QR code to instantly visit
-        the official B. Srikanth Reddy website.
+        the B. Srikanth Reddy business website.
       </p>
 
-      <a href="https://bit.ly/SrikanthHHI" target="_blank">
-        Open Website
-      </a>
-
+      <a href="https://bit.ly/SrikanthHHI" target="_blank">Open Website</a>
     </div>
-
   </div>
 
 </section>
 
-<section>
+<section id="contact">
 
   <h2>Contact</h2>
 
@@ -433,19 +440,9 @@
     </p>
 
     <div class="buttons">
-
-      <a href="tel:+918885992168">
-        Call
-      </a>
-
-      <a href="https://wa.me/918885992168" target="_blank">
-        WhatsApp
-      </a>
-
-      <a href="https://www.instagram.com/srikanthreddy4912/" target="_blank">
-        Instagram
-      </a>
-
+      <a href="tel:+918885992168">Call</a>
+      <a href="https://wa.me/918885992168" target="_blank">WhatsApp</a>
+      <a href="https://www.instagram.com/srikanthreddy4912/" target="_blank">Instagram</a>
     </div>
 
   </div>
@@ -455,25 +452,22 @@
 <section>
 
   <div class="notice">
-
     <p>
       Disclaimer:
       This is an independent promotional page
       for B. Srikanth Reddy and is not the
       official corporate website of Happy Health India.
+      Please verify product and business details directly before purchase or joining.
     </p>
-
   </div>
 
 </section>
 
 <footer>
-
   <p>
     © 2026 B. Srikanth Reddy |
     Happy Health India Associate
   </p>
-
 </footer>
 
 </body>
